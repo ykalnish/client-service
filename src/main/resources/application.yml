@@ -14,3 +14,22 @@ eureka:
 
 book-service:
   url: http://localhost:8081/
+
+
+#spring:
+#  application:
+#    name: client-service
+#
+#server:
+#  port: 8082
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: ${EUREKA_URI:http://eureka-server-au.com:9001/eureka/}
+##      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}?
+#    instance:
+#      preferIpAddress: true
+#
+#book-service:
+#  url: http://localhost:8080/
